@@ -4,13 +4,19 @@ import Navbar from "../../components/navbar/Navbar"
 
 function Articles(){
     return(
-        <div>
+        
+         <div>
             <Navbar title = "Ali Blog "/>
-            <h1 className={styled.header}>
+            {/* <h1 className={styled.header}>
                 Hello world ...
-            </h1>
+            </h1> */}
+            <div className="container">
             <h2>Home page</h2>
+            </div>
+            
         </div>
+       
+       
     )
 }
 

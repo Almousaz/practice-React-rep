@@ -12,8 +12,8 @@ function App() {
       {/* <Navbar />
       <Header />
       <Footer /> */}
-      {/* <Articles /> */}
-      <Aboutus />
+      <Articles />
+      {/* <Aboutus /> */}
       {/* <Navbar title = "Mahdi Blog"/> */}
       {/* <Footer />
       <Home /> */}

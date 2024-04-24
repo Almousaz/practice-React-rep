@@ -9,18 +9,29 @@ function Navbar(props){
 
 
     return(
-        <div className={styled.navbarstyle}>
+        
+        <div className={styled.headerWrapper}>
+            <div className='container'>
+            <div className={styled.navbarstyle}>
             {/* <h1>Header</h1> */}
             <h3 className={styled.header}>{props.title}</h3>
             {/* <h3>{title}</h3> */}
 
-            <ul>
+            <div className={styled.navbar}>
+                <ul>
                 <li>List Arcticles</li>
                 <li>New Article</li>
                 <li>About Us</li>
                 <li>Contact Us</li>
             </ul>
+            </div>
+            
         </div>
+        </div>
+        </div>
+            
+            
+        
     )
 }
 

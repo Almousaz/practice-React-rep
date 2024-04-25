@@ -2,8 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 import Navbar from './components/navbar/Navbar';
 import Footer from './components/footer/Footer';
-import Home from './pages/home/home'
-import Articles from './pages/home/home';
+import Home from './pages/home/home';
 import Aboutus from './pages/aboutUs/about';
 
 function App() {
@@ -12,7 +11,7 @@ function App() {
       {/* <Navbar />
       <Header />
       <Footer /> */}
-      <Articles />
+      <Home />
       {/* <Aboutus /> */}
       {/* <Navbar title = "Mahdi Blog"/> */}
       {/* <Footer />

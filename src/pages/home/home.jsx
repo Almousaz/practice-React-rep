@@ -4,6 +4,38 @@ import Navbar from "../../components/navbar/Navbar"
 import Article from "../../components/Article/Article"
 
 function Home(){
+
+
+
+    let articles = [
+        {
+            id: 1,
+            imageUrl:"",
+            title:"first adticle",
+            readingTime: 5
+        },
+        {
+            id: 2,
+            imageUrl:"",
+            title:"second article",
+            readingTime: 3   
+        },
+        {
+            id: 3,
+            imageUrl:"",
+            title:"third article",
+            readingTime: 8   
+        }
+    ]
+
+
+
+
+
+
+
+
+
     return(
         
          <div>
@@ -18,15 +50,13 @@ function Home(){
             <h4>New Articles</h4>
 
             <div className={styled.articleList}>
-            <Article />
-            <Article />
-            <Article />
-            <Article />
+                {
+                    articles.map(article => (
+                        <Article />
+                    ))
+                }
             
-            <Article />
-            <Article />
-            <Article />
-            <Article />
+            
             </div>
             
             

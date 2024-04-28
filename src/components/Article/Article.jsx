@@ -4,17 +4,16 @@ import article from "./../Assets/images/javascript-736400_640.png"
 
 
 
-function Article (){
 
-
+function Article (props){
 
     return (
 
         <div className={styled.articleWrapper}>
-            <img src={article} />
+            <img src={props.article.imageUrl} />
 
-            <h3>Variable in Java Script</h3>
-            <p>Reading Time 5min</p>
+            <h3>{props.article.title}</h3>
+            <p>Reading Time{props.article.readingTime} min</p>
         </div>
 
 

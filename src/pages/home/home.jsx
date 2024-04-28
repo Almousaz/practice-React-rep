@@ -1,72 +1,48 @@
+import { useEffect, useState } from "react";
+import styled from "./home.module.css";
+import Navbar from "../../components/navbar/Navbar";
+import Article from "../../components/Article/Article";
+import axios from "axios";
 
-import styled from "./home.module.css"
-import Navbar from "../../components/navbar/Navbar"
-import Article from "../../components/Article/Article"
+function Home() {
+  const [articles, setArticles] = useState([]);
 
-function Home(){
+  useEffect(() => {
+    // API call
 
+    axios.get("http://localhost:8200/articles").then( result => {
 
+        setArticles(result.data.data);
 
-    let articles = [
-        {
-            id: 1,
-            imageUrl:"",
-            title:"first adticle",
-            readingTime: 5
-        },
-        {
-            id: 2,
-            imageUrl:"",
-            title:"second article",
-            readingTime: 3   
-        },
-        {
-            id: 3,
-            imageUrl:"",
-            title:"third article",
-            readingTime: 8   
-        }
-    ]
+    //   console.log(result.data.data);
+    })
 
+    .catch((error) => {
+        console.log(error);
+    });
 
+  }, []);
 
-
-
-
-
-
-
-    return(
-        
-         <div>
-            <div className={styled.homeWrapper}>
-
-            <Navbar title = "Ali Blog "/>
-            {/* <h1 className={styled.header}>
+  return (
+    <div>
+      <div className={styled.homeWrapper}>
+        <Navbar title="Ali Blog " />
+        {/* <h1 className={styled.header}>
                 Hello world ...
             </h1> */}
-            <div className="container">
-            <h2>Home page</h2>
-            <h4>New Articles</h4>
+        <div className="container">
+          <h2>Home page</h2>
+          <h4>New Articles</h4>
 
-            <div className={styled.articleList}>
-                {
-                    articles.map(article => (
-                        <Article />
-                    ))
-                }
-            
-            
-            </div>
-            
-            
-            </div>
-            </div>
-            
+          <div className={styled.articleList}>
+            {articles.map((article) => (
+              <Article key={article.id} article={article} />
+            ))}
+          </div>
         </div>
-       
-       
-    )
+      </div>
+    </div>
+  );
 }
 
-export default Home
+export default Home;

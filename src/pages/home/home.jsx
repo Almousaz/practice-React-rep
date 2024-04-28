@@ -3,6 +3,7 @@ import styled from "./home.module.css";
 import Navbar from "../../components/navbar/Navbar";
 import Article from "../../components/Article/Article";
 import axios from "axios";
+import Footer from "../../components/footer/Footer";
 
 function Home() {
   const [articles, setArticles] = useState([]);
@@ -39,7 +40,11 @@ function Home() {
               <Article key={article.id} article={article} />
             ))}
           </div>
+
         </div>
+
+        <Footer />
+
       </div>
     </div>
   );

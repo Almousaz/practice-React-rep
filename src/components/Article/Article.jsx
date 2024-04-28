@@ -13,7 +13,7 @@ function Article (props){
             <img src={props.article.imageUrl} />
 
             <h3>{props.article.title}</h3>
-            <p>Reading Time{props.article.readingTime} min</p>
+            <p>Reading Time {props.article.readingTime} min</p>
         </div>
 
 

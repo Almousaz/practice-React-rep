@@ -1,87 +1,57 @@
-
 {
-    "articles":{
-
-        "status":true,
-        "message": "success",
-        "data":[
-            {
-                "id":1,
-                "imageUrl":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTF7jLh4MD8F5RQRlt46uj1pC1tG2AP3K9F0A&s",
-                "title":"First Article",
-                "readingTime": 5
-
-            },
-            {
-                "id":2,
-                "imageUrl":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTF7jLh4MD8F5RQRlt46uj1pC1tG2AP3K9F0A&s",
-                "title":"Second Article",
-                "readingTime": 6
-
-            },
-            {
-                "id":3,
-                "imageUrl":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTF7jLh4MD8F5RQRlt46uj1pC1tG2AP3K9F0A&s",
-                "title":"Third Article",
-                "readingTime": 7
-
-            },
-            {
-                "id":4,
-                "imageUrl":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTF7jLh4MD8F5RQRlt46uj1pC1tG2AP3K9F0A&s",
-                "title":"Forth Article",
-                "readingTime": 10
-
-            },
-            {
-                "id":5,
-                "imageUrl":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTF7jLh4MD8F5RQRlt46uj1pC1tG2AP3K9F0A&s",
-                "title":"Fifth Article",
-                "readingTime": 3
-
-            },
-            {
-                "id":6,
-                "imageUrl":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTF7jLh4MD8F5RQRlt46uj1pC1tG2AP3K9F0A&s",
-                "title":"Sixth Article",
-                "readingTime": 7
-
-            },
-            {
-                "id":7,
-                "imageUrl":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTF7jLh4MD8F5RQRlt46uj1pC1tG2AP3K9F0A&s",
-                "title":"Seventh Article",
-                "readingTime": 4
-
-            },
-            {
-                "id":8,
-                "imageUrl":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTF7jLh4MD8F5RQRlt46uj1pC1tG2AP3K9F0A&s",
-                "title":"Eighth Article",
-                "readingTime": 9
-
-            }
-
-        ]
-
-
-    } ,
-    "users":{
-
-    }
-
+  "articles": {
+    "status": true,
+    "message": "success",
+    "data": [
+      {
+        "id": 1,
+        "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTF7jLh4MD8F5RQRlt46uj1pC1tG2AP3K9F0A&s",
+        "title": "First Article",
+        "readingTime": 5
+      },
+      {
+        "id": 2,
+        "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTF7jLh4MD8F5RQRlt46uj1pC1tG2AP3K9F0A&s",
+        "title": "Second Article",
+        "readingTime": 6
+      },
+      {
+        "id": 3,
+        "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTF7jLh4MD8F5RQRlt46uj1pC1tG2AP3K9F0A&s",
+        "title": "Third Article",
+        "readingTime": 7
+      },
+      {
+        "id": 4,
+        "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTF7jLh4MD8F5RQRlt46uj1pC1tG2AP3K9F0A&s",
+        "title": "Forth Article",
+        "readingTime": 10
+      },
+      {
+        "id": 5,
+        "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTF7jLh4MD8F5RQRlt46uj1pC1tG2AP3K9F0A&s",
+        "title": "Fifth Article",
+        "readingTime": 3
+      },
+      {
+        "id": 6,
+        "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTF7jLh4MD8F5RQRlt46uj1pC1tG2AP3K9F0A&s",
+        "title": "Sixth Article",
+        "readingTime": 7
+      },
+      {
+        "id": 7,
+        "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTF7jLh4MD8F5RQRlt46uj1pC1tG2AP3K9F0A&s",
+        "title": "Seventh Article",
+        "readingTime": 4
+      },
+      {
+        "id": 8,
+        "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTF7jLh4MD8F5RQRlt46uj1pC1tG2AP3K9F0A&s",
+        "title": "Eighth Article",
+        "readingTime": 9
+      }
+    ]
+  },
+  "users": {}
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-

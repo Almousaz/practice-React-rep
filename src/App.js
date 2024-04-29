@@ -4,14 +4,29 @@ import Navbar from './components/navbar/Navbar';
 import Footer from './components/footer/Footer';
 import Home from './pages/home/home';
 import Aboutus from './pages/aboutUs/about';
+import { Route, Routes } from 'react-router-dom';
 
 function App() {
   return (
     <div className="App">
+
+      <Routes>
+
+        <Route path='/' element = {<Home />} />
+        <Route path='/about' element = {<Aboutus />} />
+
+
+      </Routes>
+
+
+
+
+
+
       {/* <Navbar />
       <Header />
       <Footer /> */}
-      <Home />
+      
       {/* <Aboutus /> */}
       {/* <Navbar title = "Mahdi Blog"/> */}
       {/* <Footer />

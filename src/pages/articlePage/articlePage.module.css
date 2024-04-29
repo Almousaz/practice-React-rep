@@ -1,0 +1,46 @@
+
+.articleWrapper {
+    text-align: left;
+    
+}
+
+.articleWrapper  h4 {
+    margin-top: 40px;
+    font-weight: 750;
+   
+
+
+
+}
+
+.articleWrapper H3 {
+    margin-top: 50PX;
+    font-weight: 600;
+    margin-bottom: 10PX;
+}
+.articleInfo {
+    display: flex;
+    gap: 0 30px;
+}
+.articleInfo span {
+   
+    font-weight: 400;
+    font-size: 15PX;
+    margin: 20px 0;
+    
+}
+.articleWrapper img {
+    display: block;
+    margin-top: 30px;
+    margin-bottom: 90px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+    
+    /* height: 200px; */
+    
+}
+.articleWrapper p {
+    margin-top: 40px;
+    margin-bottom: 80px;
+}

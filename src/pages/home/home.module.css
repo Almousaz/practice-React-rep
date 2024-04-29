@@ -1,7 +1,7 @@
 
 
-.homeWrapper{
-
+.homeWrapper a{
+    
 }
 
 
@@ -26,5 +26,8 @@
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+}
+.articleList a{
+    width: 23%;
 }
 

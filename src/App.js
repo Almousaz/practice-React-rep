@@ -5,6 +5,7 @@ import Footer from './components/footer/Footer';
 import Home from './pages/home/home';
 import Aboutus from './pages/aboutUs/about';
 import { Route, Routes } from 'react-router-dom';
+import ArticlePage from './pages/articlePage/articlepage';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
 
         <Route path='/' element = {<Home />} />
         <Route path='/about' element = {<Aboutus />} />
+        <Route path='/article/:id' element = {<ArticlePage />} />
 
 
       </Routes>

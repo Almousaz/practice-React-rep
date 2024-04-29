@@ -1,57 +1,78 @@
 {
-  "articles": {
-    "status": true,
-    "message": "success",
-    "data": [
+  "articles":  [
       {
         "id": 1,
         "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTF7jLh4MD8F5RQRlt46uj1pC1tG2AP3K9F0A&s",
         "title": "First Article",
-        "readingTime": 5
+        "readingTime": 5,
+        "date": "4/29/2024",
+        "author":"Ali mousazada",
+        "content": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Provident cum repellat aliquid qui, praesentium blanditiis aperiam quam. Voluptate adipisci sequi cupiditate esse voluptatibus nobis aliquid nostrum. Tempora alias nisi unde.lorem Lorem ipsum dolor sit amet consectetur, adipisicing "
       },
       {
         "id": 2,
         "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTF7jLh4MD8F5RQRlt46uj1pC1tG2AP3K9F0A&s",
         "title": "Second Article",
-        "readingTime": 6
+        "readingTime": 6,
+        "date": "4/29/2024",
+        "author":"Ali mousazada",
+        "content": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Provident cum repellat aliquid qui, praesentium blanditiis aperiam quam. Voluptate adipisci sequi cupiditate esse voluptatibus nobis aliquid nostrum. Tempora alias nisi unde.lorem Lorem ipsum dolor sit amet consectetur, adipisicing "
       },
       {
         "id": 3,
         "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTF7jLh4MD8F5RQRlt46uj1pC1tG2AP3K9F0A&s",
         "title": "Third Article",
-        "readingTime": 7
+        "readingTime": 7,
+        "date": "4/29/2024",
+        "author":"Ali mousazada",
+        "content": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Provident cum repellat aliquid qui, praesentium blanditiis aperiam quam. Voluptate adipisci sequi cupiditate esse voluptatibus nobis aliquid nostrum. Tempora alias nisi unde.lorem Lorem ipsum dolor sit amet consectetur, adipisicing "
       },
       {
         "id": 4,
         "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTF7jLh4MD8F5RQRlt46uj1pC1tG2AP3K9F0A&s",
         "title": "Forth Article",
-        "readingTime": 10
+        "readingTime": 10,
+        "date": "4/29/2024",
+        "author":"Ali mousazada",
+        "content": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Provident cum repellat aliquid qui, praesentium blanditiis aperiam quam. Voluptate adipisci sequi cupiditate esse voluptatibus nobis aliquid nostrum. Tempora alias nisi unde.lorem Lorem ipsum dolor sit amet consectetur, adipisicing "
       },
       {
         "id": 5,
         "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTF7jLh4MD8F5RQRlt46uj1pC1tG2AP3K9F0A&s",
         "title": "Fifth Article",
-        "readingTime": 3
+        "readingTime": 3,
+        "date": "4/29/2024",
+        "author":"Ali mousazada",
+        "content": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Provident cum repellat aliquid qui, praesentium blanditiis aperiam quam. Voluptate adipisci sequi cupiditate esse voluptatibus nobis aliquid nostrum. Tempora alias nisi unde.lorem Lorem ipsum dolor sit amet consectetur, adipisicing "
       },
       {
         "id": 6,
         "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTF7jLh4MD8F5RQRlt46uj1pC1tG2AP3K9F0A&s",
         "title": "Sixth Article",
-        "readingTime": 7
+        "readingTime": 7,
+        "date": "4/29/2024",
+        "author":"Ali mousazada",
+        "content": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Provident cum repellat aliquid qui, praesentium blanditiis aperiam quam. Voluptate adipisci sequi cupiditate esse voluptatibus nobis aliquid nostrum. Tempora alias nisi unde.lorem Lorem ipsum dolor sit amet consectetur, adipisicing "
       },
       {
         "id": 7,
         "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTF7jLh4MD8F5RQRlt46uj1pC1tG2AP3K9F0A&s",
         "title": "Seventh Article",
-        "readingTime": 4
+        "readingTime": 4,
+        "date": "4/29/2024",
+        "author":"Ali mousazada",
+        "content": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Provident cum repellat aliquid qui, praesentium blanditiis aperiam quam. Voluptate adipisci sequi cupiditate esse voluptatibus nobis aliquid nostrum. Tempora alias nisi unde.lorem Lorem ipsum dolor sit amet consectetur, adipisicing "
       },
       {
         "id": 8,
         "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTF7jLh4MD8F5RQRlt46uj1pC1tG2AP3K9F0A&s",
         "title": "Eighth Article",
-        "readingTime": 9
+        "readingTime": 9,
+        "date": "4/29/2024",
+        "author":"Ali mousazada",
+        "content": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Provident cum repellat aliquid qui, praesentium blanditiis aperiam quam. Voluptate adipisci sequi cupiditate esse voluptatibus nobis aliquid nostrum. Tempora alias nisi unde.lorem Lorem ipsum dolor sit amet consectetur, adipisicing "
       }
     ]
-  },
-  "users": {}
+  
+  
 }

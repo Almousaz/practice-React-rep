@@ -4,6 +4,7 @@ import Navbar from "../../components/navbar/Navbar";
 import Article from "../../components/Article/Article";
 import axios from "axios";
 import Footer from "../../components/footer/Footer";
+import { Link } from "react-router-dom";
 
 function Home() {
   const [articles, setArticles] = useState([]);
@@ -13,7 +14,7 @@ function Home() {
 
     axios.get("http://localhost:8200/articles").then( result => {
 
-        setArticles(result.data.data);
+        setArticles(result.data);
 
     //   console.log(result.data.data);
     })
@@ -37,7 +38,11 @@ function Home() {
 
           <div className={styled.articleList}>
             {articles.map((article) => (
-              <Article key={article.id} article={article} />
+              
+                <Link to={`/article/${article.id}`}>
+                <Article key={article.id} article={article} />
+                </Link>
+
             ))}
           </div>
 

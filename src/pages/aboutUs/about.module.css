@@ -1,0 +1,27 @@
+
+.aboutPage{
+ background-color: rgba(rgb(157, 157, 157), rgb(199, 199, 199), rgb(173, 173, 176), 0.5);
+}
+
+.title{
+  margin: 40px 0;   
+  text-align: left;
+}
+
+
+.aboutPage p{
+    margin: 50px 0;   
+    text-align: left;
+    padding: 30px 0;
+}
+.aboutPage .imageJs {
+    width: 500px;
+    
+}
+.aboutPage img{
+    align-items: center;
+    border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 600px;
+}
